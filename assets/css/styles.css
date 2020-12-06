@@ -1,0 +1,75 @@
+body {
+  background-color: #DBD4D3;
+  font-family: arial, sans-serif;
+  color: #393F41;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .5em;
+}
+
+h2 {
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+
+h1, h2 {
+  color: #820F0D;
+}
+
+blockquote {
+  border-left: 4px solid #D18F23;
+  padding: 12px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+}
+
+.image {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: .25em;
+}
+a {
+  color: #E54F6D;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+p {
+  line-height:1.4em;
+}
+
+header, footer.wrapper {
+  background-image: url(../images/spikes.png);
+}
+
+header {
+  border-bottom: 1px solid #b7a9a7;
+  text-align: center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #b7a9a7;
+}
