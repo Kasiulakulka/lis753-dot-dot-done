@@ -1,7 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #DBD4D3;
+  background-image: url(../images/purplepink.jpg);
   font-family: arial, sans-serif;
   color: #393F41;
+}
+
+.btn {
+  display: inherit;
+  border: 0px solid transparent;
+}
+
+.btn-group {
+  align-items: center;
+}
+
+button{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
 }
 
 .wrapper {
@@ -13,7 +33,13 @@ body {
 }
 
 h1 {
-  margin-bottom: .5em;
+  margin-bottom: .3em;
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+}
+
+h1#page-title {
+  margin: 0;
 }
 
 h2 {
@@ -22,7 +48,7 @@ h2 {
 }
 
 h1, h2 {
-  color: #820F0D;
+  color: #006D77;
 }
 
 blockquote {
@@ -33,8 +59,8 @@ blockquote {
 }
 
 .image {
-  text-align: center;
   margin: 2em 0;
+  align-items: center;
 }
 
 .caption {
@@ -42,12 +68,21 @@ blockquote {
   margin-top: .25em;
 }
 a {
-  color: #E54F6D;
+  color: #E29578;
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
   height: auto;
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 ul {
@@ -60,7 +95,7 @@ p {
 }
 
 header, footer.wrapper {
-  background-image: url(../images/spikes.png);
+  background-image: url(../images/dotted.png)
 }
 
 header {
@@ -68,8 +103,26 @@ header {
   text-align: center;
 }
 
+header.wrapper {
+  paddong: 26px 20px;
+}
+
 footer.wrapper {
   text-align: center;
-  padding: 40px 20px;
+  padding: 26px 20px;
   border-top: 2px solid #b7a9a7;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.7rem;
+}
+
+@media all and (min-width: 920px) {
+  aside h2:first-child {
+    margin-top: 14px;
+  }
 }
