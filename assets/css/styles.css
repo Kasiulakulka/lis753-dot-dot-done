@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/purplepink.jpg);
+  font-family: arial, sans-serif;
+  color: #393F41;
+}
+
+.btn {
+  display: inherit;
+  border: 0px solid transparent;
+}
+
+.btn-group {
+  align-items: center;
+}
+
+button{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  width: 92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1 {
+  margin-bottom: .3em;
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+}
+
+h1#page-title {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+
+h1, h2 {
+  color: #006D77;
+}
+
+blockquote {
+  border-left: 4px solid #D18F23;
+  padding: 12px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+}
+
+.image {
+  margin: 2em 0;
+  align-items: center;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: .25em;
+}
+a {
+  color: #E29578;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+p {
+  line-height:1.4em;
+}
+
+header, footer.wrapper {
+  background-image: url(../images/dotted.png)
+}
+
+header {
+  border-bottom: 1px solid #b7a9a7;
+  text-align: center;
+}
+
+header.wrapper {
+  paddong: 26px 20px;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 26px 20px;
+  border-top: 2px solid #b7a9a7;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.7rem;
+}
+
+@media all and (min-width: 920px) {
+  aside h2:first-child {
+    margin-top: 14px;
+  }
+}
